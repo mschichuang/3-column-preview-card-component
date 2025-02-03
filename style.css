@@ -1,0 +1,105 @@
+:root {
+  --background-color: hsl(0, 0%, 95%);
+
+  --sedan-color: hsl(31, 77%, 52%);
+  --suv-color: hsl(184, 100%, 22%);
+  --luxury-color: hsl(179, 100%, 13%);
+
+  --text-primary: hsl(0, 0%, 95%);
+  --text-secondary: hsla(0, 0%, 100%, 0.75);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Lexend Deca", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  width: clamp(327px, 85vw, 920px);
+  min-height: 500px;
+  margin-block: 88px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+.card {
+  flex: 1;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sedan {
+  background-color: var(--sedan-color);
+}
+
+.suv {
+  background-color: var(--suv-color);
+}
+
+.luxury {
+  background-color: var(--luxury-color);
+}
+
+h2 {
+  color: var(--text-primary);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-block: 34px 26px;
+}
+
+p {
+  color: var(--text-secondary);
+  font-size: 0.94rem;
+  line-height: 1.8;
+  margin-bottom: auto;
+}
+
+a {
+  background-color: var(--background-color);
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.sedan a {
+  color: var(--sedan-color);
+}
+
+.suv a {
+  color: var(--suv-color);
+}
+
+.luxury a {
+  color: var(--luxury-color);
+}
+
+a:hover {
+  background-color: transparent;
+  color: var(--text-primary);
+  outline: 2px solid var(--text-primary);
+}
+
+@media (max-width: 900px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  p {
+    margin-bottom: 24px;
+  }
+}
