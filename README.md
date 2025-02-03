@@ -10,5 +10,5 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-eWbOAz0ggE](https://www.frontendmentor.io/solutions/blog-preview-card-eWbOAz0ggE)
-- Live Site URL: [https://mschichuang.github.io/Blog-preview-card/](https://mschichuang.github.io/Blog-preview-card/)
+- Solution URL: [https://www.frontendmentor.io/solutions/3-column-preview-card-component-ORv7OsNa1o](https://www.frontendmentor.io/solutions/3-column-preview-card-component-ORv7OsNa1o)
+- Live Site URL: [https://mschichuang.github.io/3-column-preview-card-component/](https://mschichuang.github.io/3-column-preview-card-component/)
